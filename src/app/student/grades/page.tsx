@@ -215,7 +215,7 @@ function StudentGradesPage() {
             <div className="border rounded-lg shadow-lg bg-white p-12 text-center">
               <h3 className="mt-4 text-lg font-medium">No Course Data</h3>
               <p className="mt-2 text-sm text-gray-500">
-                You don't have any courses for the selected semester.
+                You don&apos;t have any courses for the selected semester.
               </p>
             </div>
           )}
