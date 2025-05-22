@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Calendar, Clock, Edit, ChevronLeft, ChevronRight, BookOpen, ListChecks } from "lucide-react";
-import Image from "next/image";
+import { Calendar, Clock, Edit, ChevronLeft, ChevronRight } from "lucide-react";
 import NavBar from "@/app/components/Navbar";
 import TeacherSidebar from "@/app/components/TeacherSidebar";
 
@@ -34,7 +33,6 @@ const getMostRecentMonday = (date: Date): Date => {
 const TeacherSchedulesPage = () => {
   const currentUser = { id: "teacher1", role: "teacher" }; // Mock user
   const [weekStart, setWeekStart] = useState(getMostRecentMonday(new Date("2025-05-10"))); // Initialize to Monday, May 5, 2025
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Sync with Sidebar's isOpen
 
   // Mock data for courses
   const courses = [

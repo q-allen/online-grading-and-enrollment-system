@@ -11,14 +11,14 @@ const courses = [
   { id: '2', code: 'CS102', name: 'Data Structures' },
 ];
 
-const getCoursesForTeacher = (teacherId: string) => courses;
+const getCoursesForTeacher = () => courses;
 
-const getStudentsInCourse = (courseId: string) => [
+const getStudentsInCourse = () => [
   { id: 's1', name: 'John Doe', email: 'john@example.com' },
   { id: 's2', name: 'Jane Smith', email: 'jane@example.com' },
 ];
 
-const getStudentGradeForCourse = (studentId: string, courseId: string) => ({
+const getStudentGradeForCourse = () => ({
   midterm: null,
   final: null,
   assignments: null,
@@ -52,7 +52,7 @@ export default function TeacherGradesPage() {
     [key: string]: number | string | null | undefined;
   };
 
-  const [grades, setGrades] = useState<Record<string, Grade>>({});
+  const [, setGrades] = useState<Record<string, Grade>>({});
   const [hasChanges, setHasChanges] = useState(false);
   const [isSelectOpen, setIsSelectOpen] = useState(false);
 
@@ -60,7 +60,7 @@ export default function TeacherGradesPage() {
     return <div className="text-center py-4">Access Denied</div>;
   }
 
-  const teacherCourses = getCoursesForTeacher(currentUser.id);
+  const teacherCourses = getCoursesForTeacher();
 
   const handleCourseChange = (courseId: string) => {
     const course = teacherCourses.find((c) => c.id === courseId) || null;
@@ -73,7 +73,7 @@ export default function TeacherGradesPage() {
   const getStudents = () => {
     if (!selectedCourse) return [];
 
-    const students = getStudentsInCourse(selectedCourse.id);
+    const students = getStudentsInCourse();
 
     if (searchTerm) {
       return students.filter(
@@ -198,7 +198,7 @@ export default function TeacherGradesPage() {
                   </thead>
                   <tbody>
                     {getStudents().map((student) => {
-                      const studentGrade = getStudentGradeForCourse(student.id, selectedCourse.id);
+                      const studentGrade = getStudentGradeForCourse();
                       return (
                         <tr key={student.id} className="border-t">
                           <td className="p-4">
