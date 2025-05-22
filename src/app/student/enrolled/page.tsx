@@ -84,7 +84,7 @@ function StudentEnrolledPage() {
                 <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3-.512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               <h3 className="mt-4 text-lg font-medium">No Enrolled Courses</h3>
-              <p className="mt-2 text-sm text-gray-500">You haven't enrolled in any courses yet.</p>
+              <p className="mt-2 text-sm text-gray-500">You haven&apos;t enrolled in any courses yet.</p>
               <button
                 className="mt-6 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700"
                 onClick={() => window.location.href = '/student/courses'}
