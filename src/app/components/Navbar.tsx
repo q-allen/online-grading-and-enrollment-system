@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import Image from 'next/image';
 
 export default function NavBar() {
   return (
@@ -9,7 +9,7 @@ export default function NavBar() {
       <div className="flex items-center">
         <span className="text-blue-700 mr-2">Student</span>
         <div className="w-10 h-10 bg-gray-300 rounded-full overflow-hidden">
-          <img src="/placeholder-avatar.jpg" alt="Student Avatar" className="w-full h-full object-cover" />
+          <Image src="/placeholder-avatar.jpg" alt="Student Avatar" width={40} height={40} className="w-full h-full object-cover" />
         </div>
       </div>
     </nav>

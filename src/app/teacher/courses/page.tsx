@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Trash, Plus, Search, ClipboardList, Edit, Book, CalendarDays, Clock } from "lucide-react";
 import Navbar from "../../components/Navbar";
-import Sidebar from "../../components/Sidebar";
 import TeacherSidebarPage from "../../components/TeacherSidebar";
 
 const TeacherCoursesPage = () => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Search, User, Save, ChevronDown } from 'lucide-react';
 import Navbar from '@/app/components/Navbar';
 import TeacherSidebar from '@/app/components/TeacherSidebar';
