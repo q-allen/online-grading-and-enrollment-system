@@ -27,10 +27,6 @@ const StudentDashboard = () => {
     status: "Active",
   };
 
-  const gradeDistributionData = viewPeriod === "semester"
-    ? { A: 3, B: 2, C: 1, D: 0, F: 0 }
-    : { A: 8, B: 5, C: 3, D: 1, F: 0 };
-
   const upcomingClasses = [
     { id: "1", course: "Math 101", code: "MATH101", time: "10:00 AM", room: "Room 101", day: "2025-05-29" },
     { id: "2", course: "Science 102", code: "SCI102", time: "2:00 PM", room: "Room 202", day: "2025-05-30" },

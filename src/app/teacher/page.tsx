@@ -20,10 +20,6 @@ export default function DashboardPage() {
     { id: "3", course: "Data Structures", code: "CS201", time: "1:00 PM", room: "Room 303", day: "Wednesday" },
   ];
 
-  const classesPerDayData = viewPeriod === "weekly" ? [2, 1, 1, 0, 1, 0, 0] : [10, 8, 12, 9, 11, 5, 3];
-  const days = viewPeriod === "weekly" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7"];
-
-  const averageGradeData = viewPeriod === "weekly" ? [85, 87, 83, 90, 88, 86, 89] : [82, 84, 85, 87, 86, 88, 90];
   const topStudents = [
     { name: "Alice Johnson", grade: 95, course: "CS101" },
     { name: "Bob Smith", grade: 92, course: "ENG105" },
