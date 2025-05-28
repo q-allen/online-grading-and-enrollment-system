@@ -192,7 +192,7 @@ const TeacherSchedulesPage = () => {
         <NavBar />
         <div className="space-y-4 p-4 sm:p-6 md:p-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D]">Class Schedules</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D]">MANAGE CLASS SCHEDULES</h1>
             <div className="flex items-center gap-2">
               <div className="flex items-center bg-white rounded-md p-1 shadow-md">
                 <button

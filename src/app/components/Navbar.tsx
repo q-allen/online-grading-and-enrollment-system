@@ -4,16 +4,14 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Bell, User, LogOut, Moon, Sun } from 'lucide-react';
+import { Bell, User, LogOut } from 'lucide-react';
 
 export default function NavBar() {
   const [userRole] = useState<'Student' | 'Teacher'>('Student');
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
   const router = useRouter();
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
-  const toggleDarkMode = () => setDarkMode(!darkMode);
 
   const handleLogout = () => {
     setDropdownOpen(false);
@@ -23,24 +21,15 @@ export default function NavBar() {
 
   return (
     <nav className="flex justify-between items-center p-4 bg-white shadow-md border-b border-gray-200">
-      <div className="flex items-center space-x-3">
-      </div>
+      <div className="flex items-center space-x-3"></div>
 
       <div className="flex items-center space-x-3 sm:space-x-4">
-        <div className="relative">
+        <Link href="/notifications" className="relative">
           <Bell className="w-5 h-5 sm:w-6 sm:h-6 text-[#0F214D] cursor-pointer hover:text-[#2BA3EC] transition-colors" />
           <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
             3
           </span>
-        </div>
-
-        <button onClick={toggleDarkMode} className="p-2 rounded-md hover:bg-gray-100 transition-colors">
-          {darkMode ? (
-            <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-[#0F214D] hover:text-[#2BA3EC]" />
-          ) : (
-            <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-[#0F214D] hover:text-[#2BA3EC]" />
-          )}
-        </button>
+        </Link>
 
         <div className="flex items-center space-x-2 sm:space-x-3 relative">
           <span className="text-sm font-medium text-[#0F214D] bg-[#2BA3EC]/10 px-2 py-1 rounded-md">

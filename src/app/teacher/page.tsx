@@ -33,7 +33,7 @@ export default function DashboardPage() {
         <Navbar />
         <div className="p-4 sm:p-6 md:p-8 space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D] uppercase">Dashboard</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D] uppercase">Welcome to Your Dashboard</h1>
             <div className="relative">
               <Search className="absolute left-2 top-2.5 h-4 w-4 text-gray-400" />
               <input

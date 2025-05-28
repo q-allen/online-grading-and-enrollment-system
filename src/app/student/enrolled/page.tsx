@@ -65,7 +65,7 @@ function StudentEnrolledPage() {
       <div className="flex-1 flex flex-col bg-gray-100">
         <Navbar />
         <div className="space-y-6 p-6">
-          <h1 className="text-3xl font-bold text-[#0F214D]">My Enrolled Subjects</h1>
+          <h1 className="text-3xl font-bold text-[#0F214D]">MY ENROLLED SUBJECTS</h1>
 
           {enrolledCourses.length > 0 ? (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

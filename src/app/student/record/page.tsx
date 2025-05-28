@@ -72,7 +72,7 @@ function StudentRecordPage() {
       <div className="flex-1 flex flex-col bg-gray-100">
         <Navbar />
         <div className="space-y-6 p-6">
-          <h1 className="text-3xl font-bold text-[#0F214D]">Academic Record</h1>
+          <h1 className="text-3xl font-bold text-[#0F214D]">ACADEMIC RECORD</h1>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="border rounded-lg shadow-lg bg-white md:col-span-1">
               <div className="p-4">

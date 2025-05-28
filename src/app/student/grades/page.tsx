@@ -171,7 +171,7 @@ function StudentGradesPage() {
         <Navbar />
         <div className="space-y-6 p-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            <h1 className="text-3xl font-bold text-[#0F214D]">My Grades</h1>
+            <h1 className="text-3xl font-bold text-[#0F214D]">MY GRADES</h1>
             <div className="w-full md:w-64 relative">
             <button
               className="w-full h-10 px-4 py-2 text-left bg-white border border-gray-300 rounded-md text-gray-600 flex items-center justify-between"

@@ -121,7 +121,7 @@ export default function TeacherGradesPage() {
         <Navbar />
       <div className="space-y-6 p-4 sm:p-6 md:p-8">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        <h1 className="text-3xl font-bold text-[#0F214D]">Manage Student Grades</h1>
+        <h1 className="text-3xl font-bold text-[#0F214D]">MANAGE STUDENT GRADES</h1>
         {hasChanges && (
           <button
             onClick={handleSaveGrades}

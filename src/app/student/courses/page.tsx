@@ -58,7 +58,7 @@ const StudentPage = () => {
       <div className="flex-1 flex flex-col bg-gray-100">
         <Navbar />
         <div className="space-y-6 p-4 sm:p-6 md:p-8">
-          <h1 className="text-3xl font-bold text-[#0F214D]">Available Courses</h1>
+          <h1 className="text-3xl font-bold text-[#0F214D]">AVAILABLE COURSES</h1>
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="md:col-span-1 space-y-6">

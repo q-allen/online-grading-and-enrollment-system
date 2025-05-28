@@ -59,7 +59,7 @@ const TeacherCoursesPage = () => {
         <Navbar />
         <div className="space-y-4 p-4 sm:p-6 md:p-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D]">My Courses</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-[#0F214D]">MANAGE COURSES</h1>
             <button
               onClick={handleAddCourse}
               className="bg-[#0F214D] text-white px-3 py-1 sm:px-4 sm:py-2 rounded-md flex items-center hover:bg-[#0D1A3D] transition-colors text-sm sm:text-base"

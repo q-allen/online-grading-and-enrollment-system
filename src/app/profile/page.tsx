@@ -116,6 +116,8 @@ export default function StudentProfilePage() {
                           accept="image/*"
                           onChange={handleAvatarChange}
                           className="hidden"
+                          title="Upload avatar"
+                          placeholder="Upload avatar"
                         />
                       </label>
                     )}
