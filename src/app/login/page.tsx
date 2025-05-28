@@ -22,7 +22,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF] font-sans px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 font-sans px-4">
       {/* Logo and Title */}
       <div className="flex flex-row items-center mb-8">
         <Image

@@ -167,7 +167,7 @@ function StudentGradesPage() {
   return (
     <div className="min-h-screen flex font-sans">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF]">
+      <div className="flex-1 flex flex-col bg-gray-100">
         <Navbar />
         <div className="space-y-6 p-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">

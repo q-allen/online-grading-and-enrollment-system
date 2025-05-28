@@ -116,7 +116,7 @@ export default function TeacherGradesPage() {
     <div className="min-h-screen flex">
       <TeacherSidebar />
       <div
-        className={`flex-1 flex flex-col bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF] transition-all duration-300`}
+        className={`flex-1 flex flex-col bg-gray-100 transition-all duration-300`}
       >
         <Navbar />
       <div className="space-y-6 p-4 sm:p-6 md:p-8">

@@ -53,7 +53,7 @@ const TeacherCoursesPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex font-sans bg-gradient-to-b from-[#EBFCFF] to-[#D6F0FF]">
+    <div className="min-h-screen flex font-sans bg-gray-100">
       <TeacherSidebarPage />
       <div className="flex-1 flex flex-col">
         <Navbar />

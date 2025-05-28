@@ -69,7 +69,7 @@ function StudentRecordPage() {
   return (
     <div className="min-h-screen flex font-sans">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF]">
+      <div className="flex-1 flex flex-col bg-gray-100">
         <Navbar />
         <div className="space-y-6 p-6">
           <h1 className="text-3xl font-bold text-[#0F214D]">Academic Record</h1>

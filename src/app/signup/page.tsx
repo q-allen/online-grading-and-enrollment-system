@@ -38,7 +38,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF] p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
       {/* Logo and Title */}
       <div className="flex flex-row items-center mb-8">
         <Image src="/images/logo.png" alt="Logo" width={80} height={80} className="mr-4" />
