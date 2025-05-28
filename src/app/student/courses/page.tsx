@@ -53,7 +53,7 @@ const StudentPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex font-sans">
+    <div className="min-h-screen flex">
       <Sidebar />
       <div className="flex-1 flex flex-col bg-gradient-to-r from-[#EBFCFF] to-[#D6F0FF]">
         <Navbar />

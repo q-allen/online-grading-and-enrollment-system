@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { GraduationCap, ListChecks, CalendarDays, BookOpen, ChevronLeft, ChevronRight, Clock } from 'lucide-react';
+import { GraduationCap, ListChecks, CalendarDays, BookOpen, ChevronLeft, ChevronRight, Clock, LayoutDashboard } from 'lucide-react';
 import Image from 'next/image';
 
 const Sidebar = () => {
@@ -13,6 +13,7 @@ const Sidebar = () => {
   };
 
   const studentLinks = [
+    { path: "/student", label: "Dashboard", icon: <LayoutDashboard className="h-5 w-5" /> },
     { path: "/student/courses", label: "Available Courses", icon: <BookOpen className="h-5 w-5" /> },
     { path: "/student/enrolled", label: "Enrolled", icon: <GraduationCap className="h-5 w-5" /> },
     { path: "/student/grades", label: "My Grades", icon: <ListChecks className="h-5 w-5" /> },
