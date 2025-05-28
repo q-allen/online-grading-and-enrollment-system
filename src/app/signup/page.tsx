@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaSchool } from 'react-icons/fa';
 import { MdAppRegistration } from 'react-icons/md';
 
 const SignupPage = () => {
@@ -50,7 +49,7 @@ const SignupPage = () => {
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h2 className="text-2xl font-semibold text-center text-[#0F214D] mb-4">Create Your Account</h2>
         <p className="text-center text-gray-600 mb-6">
-        Please fill in the details below to register as a student.
+            Please fill in the details below to register as a student.
         </p>
 
         <form onSubmit={handleSubmit}>
